@@ -36,7 +36,7 @@
 \end{equation}
 and a ray with origin $\vec{o} = \rlvc{o_x, o_y}$ and direction $\vec{d} = \rlvc{d_x, d_y}$, the parameter $h$ for the intersection of the ray and ellipse can be computed as:
 \begin{equation}
-    h = \rlabs{\frac{m}{n}}\text{, where }m = \vec{o}\cdot\rlvc{-d_y, d_x}\text{ and }n =\vec{p}\cdot\rlvc{-d_y, d_x}
+    h = \frac{m}{n}\text{, where }m = \vec{o}\cdot\rlvc{-d_y, d_x}\text{ and }n =\vec{p}\cdot\rlvc{-d_y, d_x}
 \end{equation}
 where $\vec{p}$ is a point on the ellipse at which the tangent vector is parallel to $\vec{d}$.
 \begin{center}
@@ -115,7 +115,7 @@ Solving for $x$ and $y$, it can be determined that
 \end{equation}
 Substituting the value of $\vec{p}$ in Equation 2 yields:
 \begin{equation}
-    h = \rlabs{\frac{o_y d_x - o_x d_y}{\sqrt{a^2 d_y^2 + b^2 d_x^2}}}.
+    h = \frac{o_y d_x - o_x d_y}{\sqrt{a^2 d_y^2 + b^2 d_x^2}}.
 \end{equation}
 An interactive tool can be found at \url{https://www.desmos.com/calculator/m1vsowmkvi}
 
